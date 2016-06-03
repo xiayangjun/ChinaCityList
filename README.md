@@ -1,5 +1,5 @@
 # ChinaCityList
-A jQuery plugin for attach a city list div to a html container element(e.g. div).
+A jQuery plugin for attach a city list div to an html container element(e.g. div).
 jQuery plugin `mCustomScrollbar` is needed.
 
 ## How to use it?
