@@ -85,7 +85,11 @@
             $(this).css({ position: "relative", cursor: "pointer" });
         }
 
-        var cityInput = $('<input type="text" />').appendTo(this);
+        // 已选城市名容器
+        var cityInput = $('<input type="text" readOnly="true"/>').appendTo(this);
+
+        // 下拉箭头
+        var downArrow = $('<span>▼</span>').appendTo(this).css({position: "absolute", right: "3px", fontSize: "12px", color: "black"});
 
         // 最外层容器
         var listContainer = $('<div id="jQueryXYJ_cityListContainer"></div>').appendTo(this).css({
