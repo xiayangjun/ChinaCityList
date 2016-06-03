@@ -3,6 +3,7 @@ A jQuery plugin for attach a city list div to an html container element(e.g. div
 jQuery plugin `mCustomScrollbar` is needed.
 
 ## How to use it?
+Add the following demo code. Then you click the div#demo, you will get the city list. Click the cityname, and the div#demo will show the cityname.
 ```html
 <!DOCTYPE html>
 <html lang="en">
